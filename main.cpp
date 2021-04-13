@@ -4,14 +4,13 @@
 #include"dealer.h"
 #include"hand.h"
 #include <iostream>
-#include"game.h"
 #include <io.h>
 #include <fcntl.h>
+#include "game.h"
 using namespace std;
 
 int main() {
 	Game my_game;
-	Game game_score;
 	char playing = 'a';
 	unsigned int pW = 0; unsigned int pW2 = 0; unsigned int pW3 = 0;
 	unsigned int dW = 0;
